@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="tabs-wrapper">
+    <h1>Tabs</h1>
+    <div class="tabs-block-wrapper">
+      <div id="tabs">
+        <div class="tab-btn active" data-btn="1">1</div>
+        <div class="tab-btn" data-btn="2">2</div>
+        <div class="tab-btn" data-btn="3">3</div>
+      </div>
+      <div id="contents">
+        <div class="content active" data-content="1">content 1</div>
+        <div class="content" data-content="2">content 2</div>
+        <div class="content" data-content="3">
+          <div id="ttabs">
+            <div class="ttab-btn active" data-bttn="1">1</div>
+            <div class="ttab-btn" data-bttn="2">2</div>
+          </div>
+          <div id="ccontents">
+            <div class="ccontent active" data-ccontent="1">My content 1</div>
+            <div class="ccontent" data-ccontent="2">My content 2</div>              
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--<h1>Modal window</h1>-->
+  <div class="flex-wrapper">
+    <button id="btn-open">Open Modal window</button>
+  </div>
+  <div class="wrapper-modal">
+    <div id="overlay"></div>
+    <div id="modal-window">
+      <button id="btn-close">Close modal</button>
+      <div class="modal content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro  voluptatibus, enim dolorem perspiciatis neque dolores dolore   soluta quam nesciunt atque quod dolor, deserunt quas reiciendis,  quisquam suscipit aut. Eos, iste?
+      </div>
+    </div>
+  </div>
+  <div class="sliders-wrapper">
+    <div class="slider-wrapper">
+      <div class="trans">
+        <div class="slide active">
+          <img src="./img/img_1.jpg" alt="Озеро">
+        </div>
+        <div class="slide">
+          <img src="./img/img_2.jpg" alt="Город">
+        </div>
+        <div class="slide">
+          <img src="./img/img_3.jpg" alt="Мост в лесу">
+        </div>
+      </div>
+
+      <div id="btn-prev"></div>
+      <div id="btn-next"></div>
+    </div>
+  </div>
+  <div class="dots-wrapper">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
