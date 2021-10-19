@@ -28,5 +28,15 @@ async function getQuote() {
   }
 }
 
+function twittQuote () {
+  const quote = quoteText.innerText;
+  const author = quoteAuthor.innerText;
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${quote} - ${author}`;
+  window.open(twitterUrl)
+}
 
+//get first quote
 getQuote();
+
+twitterBtn.addEventListener('click', twittQuote);
+newQuoteBtn.addEventListener('click', getQuote);
