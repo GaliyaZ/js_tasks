@@ -5,6 +5,7 @@ const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const quoteContainer = document.querySelector('.quote-container');
 const loader = document.querySelector('.loader');
+let counter = 0;
 
 function showLoader () {
   loader.hidden = false;
@@ -40,12 +41,14 @@ async function getQuote() {
     }
     quoteText.innerText = data.quoteText;
     hideLoader();
-    throw new Error('Something went wrong!');
   } catch (error) {
-    console.log(error);
-    if (error.name != 'SyntaxError') {
-      getQuote();
-    } else {console.log('Service is unavailable')}
+    counter += 1;
+      if (counter <= 10) {
+        console.log(error);
+        getQuote();
+    } else {
+        console.log('Service is unavailable')
+    }
   }
 }
 
