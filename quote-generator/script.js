@@ -6,7 +6,7 @@ const newQuoteBtn = document.getElementById('new-quote');
 const quoteContainer = document.querySelector('.quote-container');
 const loader = document.querySelector('.loader');
 
-function loading () {
+function showLoader () {
   loader.hidden = false;
   quoteContainer.hidden = true;
 }
@@ -20,7 +20,7 @@ function hideLoader () {
 
 //get quote from api
 async function getQuote() {
-  loading();
+  showLoader();
   const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
   const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=ru&format=json';
   try {
@@ -40,8 +40,12 @@ async function getQuote() {
     }
     quoteText.innerText = data.quoteText;
     hideLoader();
+    throw new Error('Something went wrong!');
   } catch (error) {
-    getQuote();
+    console.log(error);
+    if (error.name != 'SyntaxError') {
+      getQuote();
+    } else {console.log('Service is unavailable')}
   }
 }
 
