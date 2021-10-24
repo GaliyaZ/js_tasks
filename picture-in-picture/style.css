@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: rgb(210, 230, 231);
+}
+
+/*.button-container {
+  display: flex;
+  align-items: center;
+}*/
+
+button {
+  text-decoration: none;
+  color: white;
+  width: 180px;
+  height: 75px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9eefe1 0%, #4830f0 40%);
+  background-size: 150% auto;
+  border: 2px solid gray;
+  margin: 15px;
+}
+
+.button:active {
+  background-image: linear-gradient(to right, #8fe2d4 0%, #3c22e7 40%);
+}
