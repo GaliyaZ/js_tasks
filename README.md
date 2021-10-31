@@ -4,4 +4,6 @@
 Генератор цитат: https://galiyaz.github.io/js_tasks/quote-generator/ <br>
 Фотогалерея: https://galiyaz.github.io/js_tasks/infinite-scroll/ <br>
 Joke teller: https://galiyaz.github.io/js_tasks/joke-teller/ <br>
+Light-Dark mode: https://galiyaz.github.io/js_tasks/light-dark-mode/<br>
+Animated template: https://galiyaz.github.io/js_tasks/animated-template/<br>
 jquery: https://galiyaz.github.io/js_tasks/jquery-test/
