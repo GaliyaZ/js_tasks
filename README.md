@@ -6,4 +6,5 @@
 Joke teller: https://galiyaz.github.io/js_tasks/joke-teller/ <br>
 Light-Dark mode: https://galiyaz.github.io/js_tasks/light-dark-mode/<br>
 Animated template: https://galiyaz.github.io/js_tasks/animated-template/<br>
+Animated navigation: https://galiyaz.github.io/js_tasks/animated-navigation/<br>
 jquery: https://galiyaz.github.io/js_tasks/jquery-test/
