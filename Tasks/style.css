@@ -1,0 +1,15 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  animation: slide-out 0.3s linear 0.1s both;
+}
+
+@keyframes slide-out {
+   from {
+    transform: translateX(0);
+   }
+   to {
+    transform: translateX(-100px)
+   }
+}
