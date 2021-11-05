@@ -96,8 +96,16 @@ h3 {
   user-select: none;
 }
 
+.progress:active,
+.progress-container:active,
+.fas:active,
+.fas:focus {
+  outline: none;
+}
+
 .fas:hover {
   filter: brightness(70%);
+  outline: none;
 }
 
 .main-button {
