@@ -1,6 +1,7 @@
 # js_tasks
 Викторина: https://galiyaz.github.io/js_tasks/quiz/ <br>
 Слайдер и вкладки: https://galiyaz.github.io/js_tasks/tabs-modal-slider/ <br>
+Picture in picture: https://galiyaz.github.io/js_tasks/picture-in-picture/ <br>
 Генератор цитат: https://galiyaz.github.io/js_tasks/quote-generator/ <br>
 Фотогалерея: https://galiyaz.github.io/js_tasks/infinite-scroll/ <br>
 Joke teller: https://galiyaz.github.io/js_tasks/joke-teller/ <br>
