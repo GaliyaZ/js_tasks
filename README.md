@@ -8,4 +8,5 @@ Light-Dark mode: https://galiyaz.github.io/js_tasks/light-dark-mode/<br>
 Animated template: https://galiyaz.github.io/js_tasks/animated-template/<br>
 Animated navigation: https://galiyaz.github.io/js_tasks/animated-navigation/<br>
 Music player: https://galiyaz.github.io/js_tasks/music-player/<br>
+Timer: https://galiyaz.github.io/js_tasks/custom-countdown/<br>
 jquery: https://galiyaz.github.io/js_tasks/jquery-test/
